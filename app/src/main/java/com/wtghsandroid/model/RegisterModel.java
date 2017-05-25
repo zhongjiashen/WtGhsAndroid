@@ -5,6 +5,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.wtghsandroid.R;
+import com.wtghsandroid.viewbar.ErrorDialog;
+
 /**
  * Created by Administrator on 2017/5/25.
  */
@@ -61,10 +64,10 @@ public class RegisterModel extends BaseModel {
     }
 
     /**
-     * 注册按钮点击事件
+     * 下一步按钮点击事件
      * @param view
      */
-    public void login_register(View view){
-        Toast.makeText(view.getContext(), "注册点击事件" ,Toast.LENGTH_SHORT).show();
+    public void next_click(View view){
+        ErrorDialog dialog = new ErrorDialog(activity, R.style.Dialog);; dialog.show();
     }
 }

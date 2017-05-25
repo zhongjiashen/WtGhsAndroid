@@ -1,9 +1,10 @@
-package com.wtghsandroid;
+package com.wtghsandroid.activity;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.wtghsandroid.R;
 import com.wtghsandroid.databinding.ActivityMainBinding;
 import com.wtghsandroid.model.User;
 
